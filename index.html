@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To do list</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="teste">To do List</h1>
+        <div class="mainContent">
+            <h2>Digite uma nova tarefa</h2>
+            <input type="text" id="input" placeholder="Ex: lavar a louça, cortar a grama e etc...">
+            <input type="button" onclick="newTask()" class="button" value="Inserir">
+
+            <div class="list">
+
+                <ol id="theList"></ol>
+
+
+                <input type="button" onclick=checkAll() class="button" ID="checkA" value="Marcar/Desmarcar tudo">
+                <input type="button" onclick="deleteTask()" class="button" id='excluir' value="Excluir">
+
+
+
+            </div>
+
+
+        </div>
+        <footer>
+            <h4>Gabriel Marques | <en>@gabsqwerty</en>
+            </h4>
+        </footer>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    font-family: cursive;
+    
+}
+h2{
+   
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    background-color: #FFFFFFBB;
+}
+
+.mainContent{
+    background-image: url(./assets/pexels-breakingpic-3243.jpg);
+    height: 800px;
+    background-size: cover;
+    padding: 20px;
+}
+
+#input{
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: 5%;
+    position: relative;
+    transform:translateX(-50%) ;
+    width: 50%;
+}
+
+.button{
+   margin-left: 50%;
+   position: relative;
+   transform: translateX(-50%) ;
+   background-color: dodgerblue;
+   color: white;
+   font-family: cursive;
+   border-radius: 5%;
+   padding: 5px;
+   border: none;
+   margin-bottom: 5%;
+   margin-top: 1%;
+}
+
+
+#excluir{
+    float: right;
+    
+}
+
+.list{
+    
+    background-color:#FFFFFFBB;
+    height: 70%;
+    font-family: cursive;
+    
+
+}
+
+
+
+
+footer{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    width:100%;     
+    background-color: black;
+    color: white;
+}
